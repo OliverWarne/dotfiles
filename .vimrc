@@ -13,11 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 "Neat
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-fugitive'
-Bundle 'wakatime/vim-wakatime'
+"Bundle 'wakatime/vim-wakatime'
 
 "Rust
 "Plugin 'racer-rust/vim-racer'
 Plugin 'rust-lang/rust.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 "HTML
 Plugin 'vim-scripts/closetag.vim'
@@ -80,8 +81,8 @@ let $RUST_SRC_PATH="/usr/src/rust/src/"
 
 filetype indent on
 "Colors
-"let g:jellybeans_use_lowcolor_black = 0
-"colorscheme jellybeans
+set t_Co=256
+let g:jellybeans_use_lowcolor_black = 0
+colorscheme jellybeans
 hi link rustConditional Keyword
-set t_Co=8
-
+let g:ycm_autoclose_preview_window_after_completion = 1

@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/oliver/prog/rust/helloworld.rs'
-let g:netrw_dirhist_2='/home/oliver/prog/rust'
-let g:netrw_dirhist_3='/home/oliver/prog/rust/helloworld.rs'
-let g:netrw_dirhist_4='/home/oliver/prog/rust'
-let g:netrw_dirhist_5='/home/oliver/prog/rust/scrutor'
-let g:netrw_dirhist_6='/home/oliver/prog/rust'
